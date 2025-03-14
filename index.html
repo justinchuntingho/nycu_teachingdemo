@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title></title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/scipo.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<div class="withbg">
+					<h4 style ="color:#333">National Yang Ming Chiao Tung University</h4>
+					<h4 style ="color:#E6142D">Introduction to Computational Communication Science</h4>
+					<h4 style ="color:#333">Justin Chun-ting Ho</h4>
+					<h4 style ="color:#333"><small>Assistant Professor Interview - Round 1</small></h4>
+				</div>
+			</section>
+			<section>
+				<h3>Aims for today</h3>
+				<ul>
+					<li>Introduce to the history and the need for computational communication science</li>
+					<li>Give you a very basic introduction to R as a programming language</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Why computational methods?</h2>
+			</section>
+			<section>
+				<h3>General trend across disciplines</h3>
+				<em>The capacity to collect and analyze massive amounts of data has transformed such fields as biology and physics. But the emergence of a data-driven “computational social science” has been much slower.</em><br>
+				<div style="text-align: right;">--- Lazer (2009)</div>
+			</section>
+			<section>
+				<h3>Drivers of the development</h3>
+				<ol>
+					<li><b>Data availability:</b> texts, networks, images, video</li>
+					<li><b>Improved tools:</b> network analysis, automated text analysis, vision-language models etc.</li>
+					<li><b>Processing power:</b> affordable (cloud) computing, sharing platforms</li>
+				</ol>
+			</section>
+			<section>
+				<h2>What is computational communication science?</h2>
+			</section>
+			<section>
+				<h3>Computational Communication Science</h3>
+				<ol>
+					<li>Large and complex data sets</li>
+					<li>Consisting of digital traces and other “naturally occurring” data* </li>
+					<li>Requiring algorithmic solutions to analyze</li>
+					<li>Allowing the study of human communication by applying and testing communication theory</li>
+				</ol>
+			</section>
+			<section>
+				<h3>Why Computational Communication Science?</h3>
+				<ol>
+					<li>"Embarrassment of Riches": Explosion of data available, but only so much you can read (manually)</li>
+					<li>Limitation of traditional methods: eg issues with self-reported data</li>
+					<li>Advantages of digital traces: unobtrusive data collection, ecological validity, new perspectives on old phenomena</li>
+				</ol>
+			</section>
+			<section>
+				<h3>Challenges</h3>
+				<ol>
+					<li>Data quality: bigger =/= better</li>
+					<li>Privacy and ethics</li>
+					<li>Often require high level of technical skills</li>
+				</ol>
+			</section>
+			<section>
+				<h2>Your new toolbox： Introduction into R</h2>
+			</section>
+			<section>
+				<h3>Advantages of programming your tools</h3>
+				<ol>
+					<li>platform independent</li>
+					<li>open-source – no blackbox*</li>
+					<li>free</li>
+					<li>flexible</li>
+				</ol>
+			</section>
+			<section data-background="monkeyr.gif">
+			<div  style = "background-color:rgba(255,255,255,0.7);">
+				<h2>Time for R</h2>
+				<a href="https://bit.ly/nycu_demo">https://bit.ly/nycu_demo</a><br>
+				<img src="nycu_demo.png" width="30%">
+			</div>
+			</section>
+
+				<section>
+					<h2>Thank You!</h2>
+					<h4>Bluesky: @justinho.bsky.social<br>Github: justinchuntingho<br>Email: j.c.ho@uva.nl</h4>
+				</section>
+				</div>
+			</div>
+
+			<script src="dist/reveal.js"></script>
+			<script src="plugin/notes/notes.js"></script>
+			<script src="plugin/markdown/markdown.js"></script>
+			<script src="plugin/highlight/highlight.js"></script>
+			<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+				Reveal.initialize({
+					hash: true,
+					slideNumber: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				});
+			</script>
+		</body>
+		</html>
